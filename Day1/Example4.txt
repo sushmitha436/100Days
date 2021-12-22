@@ -2,31 +2,17 @@ import java.util.Scanner;
 
 public class Example4 {
   
-  public class void main(String[] args) {
+  public static void main(String[] args) {
           Scanner A=new Scanner(System.in);
+          System.out.println("=====================================");
           for(int i=0;i<3;i++) {
              String N= A.next();
-             String B= A.next();
-             if(N.length()<8){
-                System.out.print(s+"\t\t");
-             }
-             else{
-                System.out.print(s+"\t");
-             }
-             if(B.length()<3) {
-                if(B.length()<2){
-                    System.out.println("00"+B);
-                }
-                else{
-                    System.out.println("0"+B);
-                }
-             }
-             else{
-                  System.out.println(B);
-             }
-       
-        A.close();    
+             int B= A.nextInt();
+             System.out.printf("%-15s%03d\n",N,B);
+             
           }
+          A.close();
+          System.out.println("===========================================");
    }  
             
 }   
