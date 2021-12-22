@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Example2 {
+    public static void main(String[] args) {
+        int number;
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        if(n % 2 == 0) {
+
+             if(n<=5 && n>=2){
+                System.out.println("Not Wierd");
+            }
+            else if(n<=20 && n>=6) {
+                System.out.println("Wierd");
+            }
+            else {
+                System.out.println("Not Wierd");
+            }
+        }
+        else {
+            System.out.println("Wierd");
+        }
+    }
+}
+        
+    

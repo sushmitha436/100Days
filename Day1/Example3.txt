@@ -1,0 +1,14 @@
+import java.util.Scanner;      
+
+public class Example3{
+    public static void main(String[] args) {
+       
+       Scanner scan = new Scanner(System.in);
+       String S = scan.next();
+       Double D = scan.nextDouble();
+       int N = scan.nextInt();
+       System.out.println("myString is:"+S);
+       System.out.println("myDouble is:"+D);
+       System.out.println("myInt is:"+N);
+        }
+      }

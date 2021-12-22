@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Example10 {
+    public static void main(String[] args) {
+
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    String s =Integer.toString(x);
+    if(x>=-100 && x<=100) {
+        if(s.equals(Integer.toString(x))) {
+            System.out.println("Good job");
+        }
+    }   
+    else 
+       System.out.println("Wrong Number");
+        
+
+    
+    }
+}
