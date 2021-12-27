@@ -15,3 +15,14 @@ public class Pattern9 {
     }
     
 }
+
+
+//   OUTPUT:
+
+    5
+    5  4  3  2  1  
+    5  4  3  2  
+    5  4  3  
+    5  4  
+    5  
+

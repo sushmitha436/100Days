@@ -20,3 +20,12 @@ public class Patteren7 {
     }
     
 }
+
+// OUTPUT:
+
+3
+6
+* * * * * * 
+*         * 
+* * * * * * 
+

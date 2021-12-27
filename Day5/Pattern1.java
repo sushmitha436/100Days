@@ -13,3 +13,12 @@ public class Pattern1 {
         }
     }
 }
+
+// OUTPUT:
+
+  5
+  * 
+  * * 
+  * * * 
+  * * * * 
+  * * * * * 

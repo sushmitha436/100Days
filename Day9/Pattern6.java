@@ -16,3 +16,12 @@ public class Pattern6 {
     
 }
 }
+
+// OUTPUT:
+
+3
+6
+*  *  *  *  *  *  
+*  *  *  *  *  *  
+*  *  *  *  *  *  
+
