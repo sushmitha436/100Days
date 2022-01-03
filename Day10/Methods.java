@@ -16,6 +16,7 @@ public class Methods {
             System.out.println("Match not found");
         }
         System.out.println(S4.endsWith(S5));   // To check whether the String S4 ends with  String S5 or not 
-    }                                          // if it ends with S5 it returns true.Other wise it returns false
-    
+                                               // if it ends with S5 it returns true.Other wise it returns false
+        sc.close();
+    }
 }

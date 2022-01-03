@@ -12,6 +12,7 @@ public class SplitMethod {
         String[] words = S1.split("\\s",n);  // it takes space as delimiter and it splits the given string into n parts. 
         for(String B : words) {
             System.out.println(B);
-    }    
+    }   
+    sc.close();
 }
 }

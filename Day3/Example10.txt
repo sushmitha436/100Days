@@ -15,7 +15,7 @@ public class Example10 {
     else 
        System.out.println("Wrong Number");
         
-
+    sc.close();
     
     }
 }

@@ -8,7 +8,9 @@ public class StringMethods {
             System.out.println(str.equals(str2));   // it returns true if content of two strings are equal.
             System.out.println(str.equalsIgnoreCase(str2));
                   // java is case-sensitive.the above method return true if content of two strings are equal,irrespective of case(lower/upper) of strings.
-            System.out.println(str.isEmpty());    //it retturns true if string is empty,otherwise false.                 
+            System.out.println(str.isEmpty());    //it retturns true if string is empty,otherwise false.   
+            
+            sc.close();
         }     
 
 }

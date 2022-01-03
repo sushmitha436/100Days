@@ -13,6 +13,6 @@ public class JoinMethod {
             System.out.println(str.lastIndexOf('-'));  //it returns the last index of '-' in the string
             System.out.println(str.lastIndexOf('-',5));  // it returns -1 if '-' not present in given index range.otherwise it returns index.
                                                          // lastIndexOf() method works for substring also.
-
+            sc.close();
       }  
 }

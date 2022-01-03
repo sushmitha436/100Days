@@ -8,5 +8,6 @@ public class CharArrayMethod {
           for(int i=0;i<ch.length;i++) {
               System.out.println(ch[i]);
           }
+          sc.close();
       }    
 }

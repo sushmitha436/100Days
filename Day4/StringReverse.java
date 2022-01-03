@@ -9,6 +9,7 @@ public class StringReverse {
         Scanner sc = new Scanner(System.in);
         A1 = sc.nextLine();
         int length = A1.length();
+        sc.close();
        
         for(int i =length-1;i>=0;i--) 
             reverse = reverse+A1.charAt(i);
@@ -18,8 +19,5 @@ public class StringReverse {
             System.out.println("No");
            
 
-        }
-        
-        
-       
-    }
+   }
+ }

@@ -7,6 +7,7 @@ public class Example3{
        String S = scan.next();
        Double D = scan.nextDouble();
        int N = scan.nextInt();
+       scan.close();
        System.out.println("myString is:"+S);
        System.out.println("myDouble is:"+D);
        System.out.println("myInt is:"+N);

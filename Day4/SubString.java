@@ -9,5 +9,7 @@ public class SubString {
         int start = sc.nextInt();
         int end = sc.nextInt();
         System.out.println(A.substring(start,end));
+
+        sc.close();
     }
 }

@@ -10,5 +10,7 @@ public class Even {
             }
         }
 
+        sc.close();
+
     }
 }

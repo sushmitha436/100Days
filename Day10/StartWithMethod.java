@@ -8,6 +8,8 @@ public class StartWithMethod {
          System.out.println(S1.startsWith(S2));  // it returns true if S1 string Starts with S2 otherwise False.
          int n = sc.nextInt();
         System.out.println(S1.startsWith(S2,n)); // it returns true if string S2 presents at nth index.
+
+        sc.close();
         }   
 
 }

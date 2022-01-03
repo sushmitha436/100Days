@@ -18,6 +18,8 @@
             }         
          System.out.print(X.substring(0,1).toUpperCase()+X.substring(1).toLowerCase()+" ");
          System.out.print(Y.substring(0,1).toUpperCase()+Y.substring(1).toLowerCase());
+
+         sc.close();
          
 
      }         

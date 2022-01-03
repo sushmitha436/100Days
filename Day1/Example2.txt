@@ -5,6 +5,7 @@ public class Example2 {
         int number;
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
+        scan.close();
         if(n % 2 == 0) {
 
              if(n<=5 && n>=2){
