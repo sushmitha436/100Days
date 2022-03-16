@@ -28,3 +28,9 @@ class Bubble {
         bs.printArray(arr);
     }
 }
+
+/*
+    OUTPUT:
+    Sorted Elements: 
+    1 2 22 34 36 45 56 67 78 90 
+*/
